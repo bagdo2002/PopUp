@@ -1,0 +1,27 @@
+.App {
+  margin: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  position: relative;
+  top: 100px;
+  padding: 0.4rem;
+  background-color: #fff;
+  font-size: large;
+  outline: none;
+  transition: 0.5s linear;
+}
+button:hover {
+  color: #fff;
+  background-color: black;
+}
+.back {
+  border: 1px solid black;
+  width: 200px;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
